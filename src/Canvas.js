@@ -24,8 +24,8 @@ const Canvas = props => {
 
   useEffect(() => {
     const canvas = canvasRef.current
-    canvas.width = 500;
-    canvas.height = 500;
+    canvas.width = 700;
+    canvas.height = 700;
   }, []);
 
   return <canvas ref={canvasRef} {...rest}/>
